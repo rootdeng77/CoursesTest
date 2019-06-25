@@ -1,0 +1,1429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="IDEADEMOFINALLY:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="891e802b-1c14-4b5c-9486-e41549a4bad7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/IDEADEMOFINALLY_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDEADEMOFINALLY.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Filter/EncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/book/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/book/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/book/servlet/AddCartServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/book/servlet/ChangeCartServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/book/servlet/CreateOrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/book/servlet/FindByNameServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/book/servlet/FindCategoryServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/book/servlet/InsertBookServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/book/servlet/ListBooksServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/book/servlet/TranslateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/book/utils/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/servlet/DeleteOrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/servlet/EditOrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/servlet/InsertServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/servlet/ListOrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/servlet/RefreshServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/servlet/findOrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user/servlet/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/Filter/EncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/Filter/MyRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/book/dao/BookDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/book/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/book/domain/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/book/servlet/AddCartServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/book/servlet/ChangeCartServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/book/servlet/CreateOrderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/book/servlet/FindByNameServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/book/servlet/FindCategoryServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/book/servlet/InsertBookServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/book/servlet/ListBooksServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/book/servlet/TranslateServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/book/utils/JDBCUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/order/dao/OrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/order/domain/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/order/servlet/DeleteOrderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/order/servlet/EditOrderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/order/servlet/InsertServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/order/servlet/ListOrderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/order/servlet/RefreshServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/order/servlet/findOrderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/user/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/user/servlet/UserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.0.5-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Wopop_files/JQuery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Wopop_files/askgreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Wopop_files/errorred.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Wopop_files/google_jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Wopop_files/google_jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Wopop_files/jquery.pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Wopop_files/jquery.ui.all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Wopop_files/loading1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Wopop_files/loadingpn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Wopop_files/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Wopop_files/login_bgx.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Wopop_files/login_m_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Wopop_files/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Wopop_files/okgreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Wopop_files/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Wopop_files/site_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Wopop_files/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Wopop_files/style_log.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Wopop_files/userpanel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Wopop_files/webtemples.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/TS1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/TS10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/TS11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/TS12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/TS13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/TS14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/TS2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/TS3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/TS4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/TS5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/TS6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/TS7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/TS8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/TS9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/baidu_demo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/bookcover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/close_def.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/close_hov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/code.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/dayongxiaohua.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/dulala.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/euro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/fish.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/input_password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/input_username.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/java2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/ngcn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/oneplant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/photog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/subwayinshanghai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/think.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/timgs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/travelbook.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bookcover/tripcn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/carts.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/classify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/activesuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/ad/index_ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/ad/index_ad0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/ad/index_ad1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/ad/index_ad2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/ad/index_ad3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/ad/index_ad4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/ad/index_ad5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/ad/myad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/ad/page_ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/abc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/bc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/bcc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/beijingnongshang.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/bh.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/bj.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/ccb.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/cib.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/cmb.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/cmbc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/dy.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/gf.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/guangda.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/hx.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/icbc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/nanjing.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/ningbo.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/pingan.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/post.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/sfz.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/sh.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/shpd.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/zheshang.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/bank_img/zx.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/confirm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/createOrderSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/css/autoplay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/delOrderSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/error/privilege.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/foot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/IconTexto_WebDev_009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/billboard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/botton_gif_025.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/buy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/buy1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/buy2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/buy3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/buybutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/car_step8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/cart.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/check_use.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/error.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/finalbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/gif53_029.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/gif53_030.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/gwc_buy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/gwc_jx.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/hottitle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/index.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/info.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/infobg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/loginbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/loginbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/loginline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/logintitle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/logo_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/logo_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/menubg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/miniicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/miniicon2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/miniicon3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/myad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/next_page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/next_page2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/orderbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/page_ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/previous_page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/previous_page2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/productlist.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/productlist.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/serchbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/signup.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/signupbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/js/autoplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/js/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/js/my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/js/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/menu_search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/modifyuserinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/myAccount.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/orderInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/orderlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/pay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/paysuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/product_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/product_search_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/registersuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/easy-responsive-tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/font/Amble-Regular-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/insert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/easyResponsiveTabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-1.7.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/move-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/slides.min.jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/startstop-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/orders.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/products.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/rootOrders.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/waiting.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1369330702">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="22" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.107" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.253" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.63" value="1" />
+          <entry key="project.open.time.66" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.70" value="1" />
+          <entry key="project.open.time.71" value="1" />
+          <entry key="project.open.time.74" value="1" />
+          <entry key="project.open.time.76" value="3" />
+          <entry key="project.open.time.85" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="6" />
+          <entry key="java" value="150" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="4" />
+          <entry key="jsp" value="132" />
+          <entry key="xml" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="6" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="150" />
+          <entry key="JSP" value="132" />
+          <entry key="JavaScript" value="4" />
+          <entry key="XML" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="6" />
+          <entry key="java" value="9758" />
+          <entry key="jsp" value="2375" />
+          <entry key="xml" value="417" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="6" />
+          <entry key="JAVA" value="9758" />
+          <entry key="JSP" value="2375" />
+          <entry key="XML" value="417" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/orders.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/error.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" selection-start-line="8" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/waiting.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/classify.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1500">
+              <caret line="60" column="117" selection-start-line="60" selection-start-column="117" selection-end-line="60" selection-end-column="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/carts.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1525">
+              <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="76" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/book/utils/JDBCUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/book/dao/BookDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/book/domain/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>preview.html</find>
+      <find>TranslateServlet</find>
+      <find>Add to Cart</find>
+      <find>bookName</find>
+      <find>src</find>
+      <find>images</find>
+      <find>login</find>
+      <find>$</find>
+      <find>Book</find>
+      <find>id</find>
+      <find>slide</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>TranslateServlet</replace>
+      <replace>/TranslateServlet</replace>
+      <replace>加入购物车</replace>
+      <replace>category</replace>
+      <replace>bookcover</replace>
+      <replace>Order</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/book/Book.java" />
+        <option value="$PROJECT_DIR$/src/book/domain/Book.java" />
+        <option value="$PROJECT_DIR$/src/book/utils/JDBCUtils.java" />
+        <option value="$PROJECT_DIR$/src/book/servlet/ListbooksServlet.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/book/servlet/translateServlet.java" />
+        <option value="$PROJECT_DIR$/src/book/servlet/TranslateServlet.java" />
+        <option value="$PROJECT_DIR$/src/book/servlet/ListBooksServlet.java" />
+        <option value="$PROJECT_DIR$/src/book/servlet/FindByNameServlet.java" />
+        <option value="$PROJECT_DIR$/src/book/servlet/FindCategoryServlet.java" />
+        <option value="$PROJECT_DIR$/web/client/cart.jsp" />
+        <option value="$PROJECT_DIR$/web/cart.jsp" />
+        <option value="$PROJECT_DIR$/src/book/servlet/ChangeCartServlet.java" />
+        <option value="$PROJECT_DIR$/web/order.jsp" />
+        <option value="$PROJECT_DIR$/web/carts.jsp" />
+        <option value="$PROJECT_DIR$/src/book/domain/Order.java" />
+        <option value="$PROJECT_DIR$/web/css/lanrenzhijia.css" />
+        <option value="$PROJECT_DIR$/web/css/login.css" />
+        <option value="$PROJECT_DIR$/src/book/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/book/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/user/domain/User.java" />
+        <option value="$PROJECT_DIR$/web/client/order.jsp" />
+        <option value="$PROJECT_DIR$/src/order/servlet/InsertServlet.java" />
+        <option value="$PROJECT_DIR$/web/success.jsp" />
+        <option value="$PROJECT_DIR$/src/order/servlet/RefreshServlet.java" />
+        <option value="$PROJECT_DIR$/src/order/domain/Order.java" />
+        <option value="$PROJECT_DIR$/src/order/servlet/ListOrderServlet.java" />
+        <option value="$PROJECT_DIR$/src/order/servlet/DeleteOrderServlet.java" />
+        <option value="$PROJECT_DIR$/src/order/servlet/findOrderServlet.java" />
+        <option value="$PROJECT_DIR$/web/rootOrders.jsp" />
+        <option value="$PROJECT_DIR$/web/Edit.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/user/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/src/user/servlet/UserServlet.java" />
+        <option value="$PROJECT_DIR$/web/test.jsp" />
+        <option value="$PROJECT_DIR$/src/book/servlet/InsertBookServlet.java" />
+        <option value="$PROJECT_DIR$/web/classify.jsp" />
+        <option value="$PROJECT_DIR$/src/order/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/src/book/dao/BookDao.java" />
+        <option value="$PROJECT_DIR$/web/error.jsp" />
+        <option value="$PROJECT_DIR$/web/waiting.jsp" />
+        <option value="$PROJECT_DIR$/src/book/servlet/AddCartServlet.java" />
+        <option value="$PROJECT_DIR$/web/show.jsp" />
+        <option value="$PROJECT_DIR$/web/products.jsp" />
+        <option value="$PROJECT_DIR$/web/orders.jsp" />
+        <option value="$PROJECT_DIR$/web/insert.jsp" />
+        <option value="$PROJECT_DIR$/src/book/servlet/CreateOrderServlet.java" />
+        <option value="$PROJECT_DIR$/src/order/servlet/EditOrderServlet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IDEADEMOFINALLY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEADEMOFINALLY" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEADEMOFINALLY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEADEMOFINALLY" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEADEMOFINALLY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEADEMOFINALLY" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEADEMOFINALLY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEADEMOFINALLY" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEADEMOFINALLY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEADEMOFINALLY" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEADEMOFINALLY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEADEMOFINALLY" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEADEMOFINALLY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEADEMOFINALLY" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEADEMOFINALLY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEADEMOFINALLY" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEADEMOFINALLY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEADEMOFINALLY" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEADEMOFINALLY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEADEMOFINALLY" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEADEMOFINALLY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEADEMOFINALLY" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEADEMOFINALLY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEADEMOFINALLY" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="bank_img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEADEMOFINALLY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEADEMOFINALLY" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEADEMOFINALLY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="IDEADEMOFINALLY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="commons-beanutils-1.9.3.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561406005020" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\java\IDEADEMOFINALLY\web" />
+      <recent name="I:\java\IDEADEMOFINALLY\web\js" />
+      <recent name="I:\java\IDEADEMOFINALLY\web\bookcover" />
+      <recent name="I:\java\IDEADEMOFINALLY\web\css" />
+      <recent name="I:\java\IDEADEMOFINALLY\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.index.jsp">
+    <configuration name="classify.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.123" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/classify.jsp" />
+      <deployment>
+        <artifact name="IDEADEMOFINALLY:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="classify_jsp_(1)_IDEADEMOFINALLY" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="IDEADEMOFINALLY:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.123" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <deployment>
+        <artifact name="IDEADEMOFINALLY:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_IDEADEMOFINALLY" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64091" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="IDEADEMOFINALLY:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="orders.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.123" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/orders.jsp" />
+      <deployment>
+        <artifact name="IDEADEMOFINALLY:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="orders_jsp_IDEADEMOFINALLY" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="IDEADEMOFINALLY:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="test.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.123" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/test.jsp" />
+      <deployment>
+        <artifact name="IDEADEMOFINALLY:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="test_jsp_IDEADEMOFINALLY" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="IDEADEMOFINALLY:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="waiting.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.123" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/waiting.jsp" />
+      <deployment>
+        <artifact name="IDEADEMOFINALLY:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="waiting_jsp_IDEADEMOFINALLY" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="IDEADEMOFINALLY:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.index.jsp" />
+      <item itemvalue="Tomcat Server.classify.jsp (1)" />
+      <item itemvalue="Tomcat Server.test.jsp" />
+      <item itemvalue="Tomcat Server.orders.jsp" />
+      <item itemvalue="Tomcat Server.waiting.jsp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.index.jsp" />
+        <item itemvalue="Tomcat Server.waiting.jsp" />
+        <item itemvalue="Tomcat Server.orders.jsp" />
+        <item itemvalue="Tomcat Server.test.jsp" />
+        <item itemvalue="Tomcat Server.classify.jsp (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="891e802b-1c14-4b5c-9486-e41549a4bad7" name="Default Changelist" comment="" />
+      <created>1546865736472</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546865736472</updated>
+      <workItem from="1546865742055" duration="4399000" />
+      <workItem from="1546906816668" duration="10490000" />
+      <workItem from="1546924839831" duration="11762000" />
+      <workItem from="1546994088620" duration="9067000" />
+      <workItem from="1547016941047" duration="1725000" />
+      <workItem from="1547035849876" duration="5573000" />
+      <workItem from="1547042015402" duration="3889000" />
+      <workItem from="1547079617219" duration="593000" />
+      <workItem from="1547080544974" duration="8872000" />
+      <workItem from="1547091342408" duration="8605000" />
+      <workItem from="1547126261905" duration="7682000" />
+      <workItem from="1547166760133" duration="9314000" />
+      <workItem from="1547176335135" duration="231000" />
+      <workItem from="1547177516635" duration="1947000" />
+      <workItem from="1547387905267" duration="4004000" />
+      <workItem from="1547423975243" duration="21278000" />
+      <workItem from="1547475909448" duration="3308000" />
+      <workItem from="1547519991374" duration="5779000" />
+      <workItem from="1547619230822" duration="2217000" />
+      <workItem from="1547680439071" duration="2567000" />
+      <workItem from="1547689092071" duration="2387000" />
+      <workItem from="1547778448082" duration="5973000" />
+      <workItem from="1547822078386" duration="928000" />
+      <workItem from="1548418052544" duration="626000" />
+      <workItem from="1551507915622" duration="1482000" />
+      <workItem from="1557943741668" duration="1301000" />
+      <workItem from="1557966996090" duration="584000" />
+      <workItem from="1561364033224" duration="995000" />
+      <workItem from="1561405256069" duration="786000" />
+      <workItem from="1561409929291" duration="4762000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="143126000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47468355" visible="true" weight="0.18594436" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.5253165" side_tool="true" weight="0.17349927" />
+      <window_info id="Alibaba Cloud Explorer" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34018987" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39873418" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.3296355" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32911393" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24963397" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47468355" weight="0.34801763" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.5253165" side_tool="true" weight="0.17349927" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3370253" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39873418" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32911393" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24963397" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/css/lanrenzhijia.css" />
+    <entry file="file://$PROJECT_DIR$/web/css/login.css" />
+    <entry file="file://$PROJECT_DIR$/web/js/login.js" />
+    <entry file="file://$PROJECT_DIR$/web/Wopop_files/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/UserServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/book/dao/UserDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/book/domain/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/book/domain/Order.java" />
+    <entry file="file://$PROJECT_DIR$/web/client/order.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/success.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/client/js/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Filter/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="123" column="39" selection-start-line="123" selection-start-column="39" selection-end-line="123" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/test.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/rootOrders.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="66" column="115" selection-start-line="66" selection-start-column="108" selection-end-line="66" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10835">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/slider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3450">
+          <caret line="138" column="1" selection-start-line="138" selection-start-column="1" selection-end-line="138" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/book/servlet/ChangeCartServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/book/servlet/FindByNameServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="33" lean-forward="true" selection-start-line="14" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/book/servlet/ListBooksServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="32" lean-forward="true" selection-start-line="13" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookcover/timgs.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="21" selection-start-line="2" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/servlet/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/book/servlet/CreateOrderServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/book/servlet/FindCategoryServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/book/servlet/TranslateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="14" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/order/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-850">
+          <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/order/domain/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/order/servlet/RefreshServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/order/servlet/ListOrderServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/order/servlet/InsertServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="19" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/order/servlet/findOrderServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/order/servlet/DeleteOrderServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/order/servlet/EditOrderServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/book/servlet/AddCartServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/book/servlet/InsertBookServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-958">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/insert.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="72" column="2" selection-start-line="72" selection-start-column="2" selection-end-line="72" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="67" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/products.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="67" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/orders.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/waiting.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/classify.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="60" column="117" selection-start-line="60" selection-start-column="117" selection-end-line="60" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/carts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1525">
+          <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="76" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/book/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/book/domain/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/book/utils/JDBCUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>IDEADEMOFINALLY:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>IDEADEMOFINALLY</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
